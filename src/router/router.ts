@@ -11,11 +11,11 @@
 
 //routers  
     //router-Posts
-        router.post('/posts/new', PostMiddleware ,PostController.create)
+        router.post('/posts/new', PostMiddleware, PostController.create)
         router.get('/posts/index', PostController.index)
         router.delete('/posts/delete/:id', PostController.delete)
         router.get('/posts/show/:id', PostController.show)
-        router.put('/posts/update/:id', PostController.update)
+        router.put('/posts/update/:id',PostMiddleware, PostController.update)
 
 //export 
     export default router

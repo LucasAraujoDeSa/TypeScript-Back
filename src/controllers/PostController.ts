@@ -45,6 +45,7 @@ class PostController{
         try{
             const{id} = req.params
 
+
             const PostRepository = getRepository(Post)
 
             await PostRepository.delete(id)
