@@ -10,5 +10,8 @@ module.exports = {
     ],
     cli: {
         migrationsDir: "./src/data/migrations"
+    },
+    extra: {
+        ssl: "on"
     }
 }
