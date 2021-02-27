@@ -11,6 +11,9 @@
 
 //routers  
     //router-Posts
+        router.get('/', (req,res) => {
+            res.send('hello there')
+        })
         router.post('/posts/new', PostMiddleware, PostController.create)
         router.get('/posts/index', PostController.index)
         router.delete('/posts/delete/:id', PostController.delete)
