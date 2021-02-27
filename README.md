@@ -10,7 +10,7 @@
     - express v4.17.1
     - express-async-errors v3.1.1
 - Banco de dados
-    - mysql2 v2.2.5
+    - pg v8.5.1
 
 # Como rodar a Api:
 
