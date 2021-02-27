@@ -16,7 +16,6 @@ class PostController{
                 description,
                 body
             })
-
             await PostRepository.save(post)
 
             return res.status(201).json({data: post})
