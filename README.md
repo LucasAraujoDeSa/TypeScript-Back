@@ -1,5 +1,8 @@
 # Blog App 🙂
 
+# Disponivel em:
+- https://ts-node-api2.herokuapp.com
+
 # Tecnologias usadas:
 
 - Back-end
